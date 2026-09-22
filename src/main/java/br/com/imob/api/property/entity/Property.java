@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 @Entity @Table(name = "imóveis")
-@NoArgsConstructor(access = AccessLevel.PROTECTED) @AllArgsConstructor @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) @Getter @Setter
 public class Property {
 
     @Id @GeneratedValue(strategy = GenerationType.UUID)

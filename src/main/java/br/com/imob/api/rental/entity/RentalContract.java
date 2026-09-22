@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @Entity @Table(name = "contratos_aluguel")
-@NoArgsConstructor(access = AccessLevel.PROTECTED) @AllArgsConstructor @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) @Getter @Setter
 public class RentalContract {
 
     @Id @GeneratedValue(strategy = GenerationType.UUID)

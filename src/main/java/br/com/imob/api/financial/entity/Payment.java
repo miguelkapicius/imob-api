@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @Entity @Table(name = "pagamentos")
-@NoArgsConstructor(access = AccessLevel.PROTECTED) @AllArgsConstructor @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) @Getter @Setter
 public class Payment {
 
     @Id @GeneratedValue(strategy = GenerationType.UUID)

@@ -5,10 +5,12 @@ import br.com.imob.api.customer.dtos.UpdateCustomerDto;
 import br.com.imob.api.customer.entity.Customer;
 import br.com.imob.api.customer.repository.CustomerRepository;
 import br.com.imob.api.shared.exceptions.NotFoundException;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
 
+@Service
 public class CustomerService {
     private final CustomerRepository customerRepository;
 

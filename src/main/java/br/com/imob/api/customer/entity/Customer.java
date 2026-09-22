@@ -7,7 +7,7 @@ import lombok.*;
 import java.util.UUID;
 
 @Entity @Table(name = "clientes")
-@NoArgsConstructor(access = AccessLevel.PROTECTED) @AllArgsConstructor @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) @Getter @Setter
 public class Customer {
 
     public Customer(String name, String document, String email, String phone, CustomerType type, Address address) {
